@@ -1,3 +1,22 @@
 * {
   font-family: Inter, Tahoma, Roboto, Verdana, Arial, sans-serif;
 }
+
+#pixel-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* border-style: solid;
+  border-color: #181A18; */
+  border: 2px solid black;
+  /* adjust these values */
+  height: 320px;
+  width: 320px;
+  /*  */
+}
+
+.grid-square {
+  border: 1px solid #9b9b9b;
+  box-sizing: border-box;
+  height: 20px;
+  width: 20px;
+}
