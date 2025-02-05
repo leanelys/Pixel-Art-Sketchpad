@@ -12,6 +12,10 @@ for (let i = 0; i < gridSize*gridSize; i++) {
             square.classList.add("colored-grid-square");
         }
     })
+    square.addEventListener("click", () => {
+        square.classList.remove("grid-square");
+        square.classList.add("colored-grid-square");
+    })
     square.addEventListener("mousedown", () => {
         draw = true;
     })
