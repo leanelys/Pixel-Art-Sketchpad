@@ -48,3 +48,9 @@ body {
   width: 20px;
   /*  */
 }
+
+.options-container {
+  display: flex;
+  width: 320px;
+  gap: 16px;
+}
